@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{%block site %}
+    <div>
+        <!-- Zeige das eingereichte Bild -->
+        <div class="requested-image">
+            <img class= "bild" src= "static/uploads/file.jpg" alt="Your Picture">
+        </div>
+        <p>I think this picture: was created in:</p>
+        <div class="result">
+        <!-- Zeige die von epoch_predictor() erstellte prediction-->
+            <h3>{{result}}</h3>
+        </div>
+    </div>
+    <!-- Link um zurück zur Startseite zu kommen -->
+    <div class="text-center">
+        <a class="list-group-item list-group-item-light" href="{{ url_for('home')}}">Check another picture</a>
+    </div>
+
+
+
+{% endblock %}
+
+
+
+
