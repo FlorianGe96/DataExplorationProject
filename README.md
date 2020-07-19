@@ -9,9 +9,7 @@ Shazart soll eine Plattform für kunstinteressierte Nutzer sein, die gerne einen
 Dieses Github Repository beinhaltet alle Infos, die Sie zum ausführen unseres Codes brauchen. 
 Hier finden Sie:
   - Unser finales, trainiertes Modell
-  - Den Code, den wir zum trainieren benutzt haben (Als Juypter Notebook)
-  - Unsere Abschlusspräsentation als Google Sheet 
-  - Unseren Projektreport für tiefer gehende Informationen
+  - Den Code, den wir zum trainieren benutzt haben (Als .py file (ausführlich kommentiert) und als Jupyter Notebook (sparsam kommentiert))
   - Einen Link zu unserem gesamten Datensatz auf Google Drive (Link: https://drive.google.com/drive/folders/1nhMymWBEi--4E7iUL7zG4FPGSgMOlZe9?usp=sharing)
 
 Um das Modell auszuführen BITTE BEACHTEN: Die Daten sind aufgrund von Uploadbeschränkungen seitens GitHub nicht im Repo enthalten. Unter diesem https://drive.google.com/drive/folders/1nhMymWBEi--4E7iUL7zG4FPGSgMOlZe9?usp=sharing Link lässt sich der Ordner multi_epochen_data herunterladen. Diesen im Ordner "Shazart_ohneDatensätze" bitte in der 2. Ebene einbinden. Diese ist markiert durch ein leeres File Namens "PLACEHOLDER". Anschließend lässt sich das CNN ausführen.
