@@ -1,5 +1,5 @@
 # Shazart - Data Exploration Project
-Teilnehmer: Florian Gemmer, Silvan Biewald, Klemens Gerber und Arnold Hejnal
+Teilnehmer: Florian Gemmer, Silvan Biewald, Klemens Gerber und Arnold Hajnal
 
 # Zielsetzung des Projekts
 Shazart soll eine Plattform für kunstinteressierte Nutzer sein, die gerne einen Anhaltspunkt für ihre Recherche zu Gemälde haben wollen, über die sie ohne weiteres keine genaueren Informationen bekommen können. Ausserdem soll Shazart, Künstlerinnen und Künstlern eine Möglichkeit geben ihre eigenen Werke hinsichtlich Ähnlichkeiten zu klassischen Kunstepochen zu untersuchen, indem sie von unserem System klassifiziert werden. Um dieses Ziel zu erreichen wurde ein CNN trainiert, fünf klassische Kunstepochen zu unterscheiden und ähnlichkeiten zu klassischen Kunstwerken zu erkennen.
