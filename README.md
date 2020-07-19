@@ -12,11 +12,14 @@ Hier finden Sie:
   - Den Code, den wir zum trainieren benutzt haben (Als Juypter Notebook)
   - Unsere Abschlusspräsentation als Google Sheet 
   - Unseren Projektreport für tiefer gehende Informationen
-  - Einen Link zu unserem gesamten Datensatz auf Google Drive (Link: Placeholder)
+  - Einen Link zu unserem gesamten Datensatz auf Google Drive (Link: https://drive.google.com/drive/folders/1nhMymWBEi--4E7iUL7zG4FPGSgMOlZe9?usp=sharing)
 
-Zum ausführen des Modells, müssen Sie lediglich die entsprechende Python Datei "Run.py" im "shazart_web_app" Ordner ausführen. Diesen finden Sie im Shazart_ohne_Datensaetze" Ordner 
-Es wird sich eine Webseite im Browser öffnen, auf der Sie ein beliebiges Bild aus den von uns behandelten Epochen Kubismus, Impressionismus, Expressionismus
-Romantik oder Barock hochladen können. Unser Modell wird ihnen dann die entsprechende Prediction ausgeben.
+Um das Modell auszuführen BITTE BEACHTEN: Die Daten sind aufgrund von Uploadbeschränkungen seitens GitHub nicht im Repo enthalten. Unter diesem https://drive.google.com/drive/folders/1nhMymWBEi--4E7iUL7zG4FPGSgMOlZe9?usp=sharing Link lässt sich der Ordner multi_epochen_data herunterladen. Diesen im Ordner "Shazart_ohneDatensätze" bitte in der 2. Ebene einbinden. Diese ist markiert durch ein leeres File Namens "PLACEHOLDER". Anschließend lässt sich das CNN ausführen.
+Wenn Sie die WebApp verwenden wollen (eine Weboberfläche die es dem User erlaubt über eine komfortable Oberfläche Bilder an das CNN zu geben, welches dann seine Predictions ausgibt) bitte den Ordner shazart_web_app in einem beliebigen python editor öffnen und anschließend die Datei run.py starten. Anschließend der im Terminal angegeben IP zur Weboberfläche folgen. Die Web App arbeitet mit unserem zuletzt trainierten Modell.
+
+Wenn Sie lieber das Jupyter Notebook verwenden wollen, bitte den Ordner multi_epochen_data auf der gleichen Ebene wie das Notebook ablegen.
+
+Im Datensatz multi_epochen_data befindet sich neben test und train auch der Ordner "manual_testing". Hier sind ein paar Bilder aus allen Epochen abgelegt, die das CNN noch nicht kennt und mit denen man manuell testen kann, zum Beispiel indem man Sie dem Algorithmus mit der WebApp zur Verfügung stellt.
 
 Der Quellcode:
 Wir haben Jupyter Notebook als IDE verwendet, deshalb sollten Sie das für die beste Erfahrung auch tun. 
